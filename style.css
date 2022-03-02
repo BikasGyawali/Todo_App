@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://media.istockphoto.com/photos/timeline-planning-checklist-or-business-plan-with-calendar-date-on-picture-id1211255735?k=20&m=1211255735&s=612x612&w=0&h=eT_yt1ZzUGw053m8ycranQWs8-kL0VDv67DrqfxNGxw=);
+}
+
+.wrapper {
+  margin: 150px auto;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 25px;
+}
+.wrapper header {
+  font-size: 30px;
+  font-weight: 500;
+}
+.input_field .text {
+  margin: 15px 0 15px 0;
+  height: 30px;
+  width: 90%;
+  opacity: 60%;
+  font-size: 15px;
+}
+.input_field button {
+  cursor: pointer;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: #8e49e8;
+  color: white;
+}
+.wrapper ul {
+  padding: 10 0 10 0;
+}
+.wrapper ul {
+  max-height: 250px;
+  overflow-y: auto;
+}
+.todolist li button {
+  float: right;
+  background-color: wheat;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+  outline: none;
+  cursor: pointer;
+}
+.todoList li {
+  border-radius: 3px;
+  list-style: none;
+  width: 90%;
+  padding: 6px;
+  margin-bottom: 8px;
+  background: rgb(181, 186, 194);
+  opacity: 90%;
+  cursor: default;
+}
+
+.footer {
+  margin: 20 0 20 0;
+  text-align: center;
+  font-size: 18px;
+}
+.footer button {
+  float: right;
+  background-color: beige;
+  border-radius: 3px;
+  height: 25px;
+  width: 75px;
+  font-size: 1rem;
+  cursor: pointer;
+}
